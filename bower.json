@@ -1,5 +1,5 @@
 {
-    "name": "FallBack-Top-Bar",
+    "name": "Fall-Back-Top-Bar",
     "version": "0.1.0",
     "homepage": "https://github.com/Fall-Back/Top-Bar",
     "authors": [
@@ -14,10 +14,10 @@
     ],
     "license": "Apache",
     "dependencies": {
-        "FallBack-Base":        "https://github.com/Fall-Back/FallBack-Base.git",
-        "FallBack-Nav-Bar":     "https://github.com/Fall-Back/Nav-Bar.git",
-        "FallBack-Off-Canvas":  "https://github.com/Fall-Back/Off-Canvas.git",
-        "FallBack-Search-Form": "https://github.com/Fall-Back/Search-Form.git",
-        "FallBack-SVG":         "https://github.com/Fall-Back/SVG.git"
+        "Fall-Back-Base":        "https://github.com/Fall-Back/Fall-Back-Base.git",
+        "Fall-Back-Nav-Bar":     "https://github.com/Fall-Back/Nav-Bar.git",
+        "Fall-Back-Off-Canvas":  "https://github.com/Fall-Back/Off-Canvas.git",
+        "Fall-Back-Search-Form": "https://github.com/Fall-Back/Search-Form.git",
+        "Fall-Back-SVG":         "https://github.com/Fall-Back/SVG.git"
     }
 }
