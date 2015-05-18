@@ -14,10 +14,10 @@
     ],
     "license": "Apache",
     "dependencies": {
-        "FallBack-Base":        "https://github.com/Fall-Back/FallBack-Base",
-        "FallBack-Nav-Bar":     "https://github.com/Fall-Back/Nav-Bar",
-        "FallBack-Off-Canvas":  "https://github.com/Fall-Back/Off-Canvas",
-        "FallBack-Search-Form": "https://github.com/Fall-Back/Search-Form",
-        "FallBack-SVG":         "https://github.com/Fall-Back/SVG"
+        "FallBack-Base":        "https://github.com/Fall-Back/FallBack-Base.git",
+        "FallBack-Nav-Bar":     "https://github.com/Fall-Back/Nav-Bar.git",
+        "FallBack-Off-Canvas":  "https://github.com/Fall-Back/Off-Canvas.git",
+        "FallBack-Search-Form": "https://github.com/Fall-Back/Search-Form.git",
+        "FallBack-SVG":         "https://github.com/Fall-Back/SVG.git"
     }
 }
