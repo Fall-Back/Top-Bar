@@ -6,7 +6,7 @@
         "Andy Kirk <andy.kirk@gridlight-design.co.uk>"
     ],
     "description": "A simple pattern for an expanding search form.",
-    "main": "_search-form.scss",
+    "main": "_top-bar.scss",
     "ignore":[],
     "keywords": [
         "fallback",
