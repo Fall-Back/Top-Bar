@@ -16,83 +16,24 @@ $fallback--top-bar--breakpoint--enhanced: $fallback--search-form--breakpoint--en
 //$fallback--top-bar__left-panel--padding:  $fallback--off-canvas__left-panel--padding !default;
 
 /* -- Basic/fallback layout --------------------------------------------------------------------- */
-    /* Nav Bar adjustments: */
-    /*
-        1. For IE 9.
-    */
-    /*.nav-bar {
-        display: table; /* [1] *
-        
-        display: -webkit-flex;
-        display: -moz-box;
-        display: -ms-flexbox;
-        display: flex;
-        /* For -moz-box: *
-        width: 100%;
-    }
-
-    .nav-bar,
-    .nav-bar__title-section {
-        height: 40px;
-        height: 4rem;
-    }*/
-
-
 
     /* SVG adjustments: */
-
-    .svg-logo {
-        /*text-align: center;*/
-        /* For -moz-box: */
-        /*display: inline-block;
-        vertical-align: middle;*/
-    }
-
-    /* From mixin: */ 
-    .svg-logo,
-    .svg-logo .svg__link,
-    .svg-logo .svg__image {
-      height: 32px;
-    }
-
-
-    /*
-        Allow the fallback image to scale properly.
-        1. IE6 - can be removed if unnecessary.
-    */
-    .svg-logo .svg__fallback-image {
-      max-height: 32px;
-      _height: 32px;
-      /* [1] */
-    }
-
-
-
-    .svg-logo .svg__link {
-        background: #fff;
-        border: 1px solid #999;
-        padding: 3px;
-        -webkit-box-sizing: content-box;
-        -moz-box-sizing: content-box;
-        box-sizing: content-box;
-    }
-
-    .svg-logo .svg__link:hover,
-    .svg-logo .svg__link:active,
-    .svg-logo .svg__link:focus {
-        background-color: #ffdd79;
-    }
-
     /* Off Canvas adjustments: */
-
-
-    .off-canvas__panel--left {
-        padding:  0;
-    }
+    /* Nav Bar adjustments: */
+    
+    /*
+        NOTE: the above have all been re-factored out into their respective parent patterns or moved
+        to the site-specific file for now.
+        Need to find a tidier/smarter way of configuring this combination-pattern to make sure all
+        problems are solved in THIS or parent pattern files without being too specific to the
+        example.
+    */
 
 
     @media only screen and (max-width: ($fallback--top-bar--breakpoint--enhanced - 1)) {
-
+        /*
+            Position the title section in the middle of the top-bar:
+        */
         .nav-bar__title-section {
             /*vertical-align: top; /* [1] */
 
@@ -105,7 +46,9 @@ $fallback--top-bar--breakpoint--enhanced: $fallback--search-form--breakpoint--en
         }
     
         /*
-            1. For IE9. Applied all IE but is acceptable.
+            Position the off-canvas controls to the far left/right:
+            
+            1. For IE9. Applied to all IE but is acceptable.
             2. For IE9. Applied to all browsers but has no ill-effects. Basically ignored for non-IE.
             3. Reset the position for non-IE.
         */
