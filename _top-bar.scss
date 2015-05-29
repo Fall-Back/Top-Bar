@@ -29,6 +29,20 @@ $fallback--top-bar--breakpoint--enhanced: $fallback--search-form--breakpoint--en
         example.
     */
 
+    /*
+        1. For IE 9.
+        2. For -moz-box.
+    */
+    .nav-bar {    
+        display: table; /* [1] */
+    
+        display: -webkit-flex;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: flex;
+
+        width: 100%; /* [2] */
+    }
 
     @media only screen and (max-width: ($fallback--top-bar--breakpoint--enhanced - 1)) {
         /*
