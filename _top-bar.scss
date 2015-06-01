@@ -28,12 +28,12 @@ $fallback--top-bar--breakpoint--enhanced: $fallback--search-form--breakpoint--en
         problems are solved in THIS or parent pattern files without being too specific to the
         example.
     */
-
+    
     /*
         1. For IE 9.
         2. For -moz-box.
     */
-    .nav-bar {    
+    .off-canvas .nav-bar {    
         display: table; /* [1] */
     
         display: -webkit-flex;
@@ -48,7 +48,7 @@ $fallback--top-bar--breakpoint--enhanced: $fallback--search-form--breakpoint--en
         /*
             Position the title section in the middle of the top-bar:
         */
-        .nav-bar__title-section {
+        .off-canvas .nav-bar__title-section {
             /*vertical-align: top; /* [1] */
 
             -webkit-flex: 1 0 auto;

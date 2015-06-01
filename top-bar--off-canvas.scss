@@ -1,0 +1,25 @@
+$fallback--base-font-size: 10px;
+@import "../Base/_fallback-base";
+@import "../Off-Canvas/_off-canvas";
+@import "../Nav-Bar/_nav-bar";
+@import "../Search-Form/_search-form";
+
+
+
+$fallback-svg--fixed-height:      40px;
+
+$fallback-svg--padding:           3px;
+$fallback-svg--border-width:      1px;
+$fallback-svg--border-color:      #666;
+
+$fallback-svg--link-bg-color:     #fff;
+$fallback-svg--link-bg-color-alt: #ffdd79;
+@import "../SVG/_svg";
+
+//@include svg--fixed-height(40px, 'svg-logo', );
+
+@import "_top-bar";
+
+.off-canvas__panel--left {
+    padding: 0;
+}
