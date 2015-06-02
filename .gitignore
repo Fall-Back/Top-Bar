@@ -2,5 +2,6 @@
 bower_components/
 top-bar.css
 top-bar.scss
+top-bar--off-canvas.scss
 js/*.min.js
 *.css.map
