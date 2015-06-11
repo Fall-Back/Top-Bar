@@ -4,5 +4,7 @@ top-bar.css
 top-bar.scss
 top-bar--off-canvas.css
 top-bar--off-canvas.scss
+top-bar--over-panel.css
+top-bar--over-panel.scss
 js/*.min.js
 *.css.map
