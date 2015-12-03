@@ -5,7 +5,7 @@
     "authors": [
         "Andy Kirk <andy.kirk@gridlight-design.co.uk>"
     ],
-    "description": "A simple pattern for an expanding search form.",
+    "description": "Tweaks for combining Nav-Bar and Off-Canvas.",
     "main": "_top-bar.scss",
     "ignore":[],
     "keywords": [
