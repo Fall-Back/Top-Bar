@@ -9,7 +9,7 @@
 
 // Breakpoints:
 
-$fallback--top-bar--breakpoint--enhanced: $fallback--search-form--breakpoint--enhanced !default;
+$fallback--top-bar--breakpoint--enhanced: $fallback--nav-bar--breakpoint--enhanced !default;
 
 // Sizes:
 
@@ -44,7 +44,7 @@ $fallback--top-bar--breakpoint--enhanced: $fallback--search-form--breakpoint--en
         width: 100%; /* [2] */
     }
 
-    @media only screen and (max-width: ($fallback--top-bar--breakpoint--enhanced - 1)) {
+    @media only screen and (max-width: (minus1px($fallback--top-bar--breakpoint--enhanced))) {
         /*
             Position the title section in the middle of the top-bar:
         */
@@ -100,15 +100,5 @@ $fallback--top-bar--breakpoint--enhanced: $fallback--search-form--breakpoint--en
             flex: 0 0 auto;
         }
     }
-
-
-/* -- Enhanced layout --------------------------------------------------------------------------- */
-    /*@media only screen and (max-width: ($fallback--search-form--breakpoint--enhanced - 1)) {
-
-    }*/
-    
-    /*@media only screen and (min-width: $fallback--search-form--breakpoint--enhanced) {
-    
-    }*/
 
 /* ---------------------------------------------------------------------------------------------- */
