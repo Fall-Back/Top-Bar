@@ -7,7 +7,7 @@
     ],
     "description": "Tweaks for combining Nav-Bar and Off-Canvas.",
     "main": "_top-bar.scss",
-    "ignore":[],
+    "ignore": [],
     "keywords": [
         "fallback",
         "css"
